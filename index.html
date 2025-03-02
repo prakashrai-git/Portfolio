@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Personal Portfolio</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <nav>
+          <div class="prakash">PRAK<span>ASH.</span></div>
+          <ul>
+            <li><a href="#profile">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <section id="profile">
+          <div class="section__pic-container">
+            <img src="./images/ME.png" alt="My Picture" />
+          </div>
+          <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Prakash Rai</h1>
+            <p class="section__text__p2">Aspiring Web Developer</p>
+            <div class="btn-container">
+              <a href="/Resume/My Resume11.pdf" target="_blank" class="btn">Download CV</a>
+              <a href="#contact" class="btn">Contact info</a>
+            </div>
+            <div id="socials-container">
+              <a href="https://www.linkedin.com/in/prakashrai11/" target="_blank">
+                <img src="./images/linkedin.png" alt="My LinkedIn profile" class="icon invert" />
+              </a>
+              
+              <a href="https://github.com/prakashrai-git" target="_blank">
+                <img src="./images/github.png" alt="My Github profile" class="icon invert" />
+              </a>
+              
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img class="about-img" src="/images/My Image.png" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title-about">About Me</h1>
+            <p>
+              My name is Prakash Rai, and I am currently pursuing a Bachelor of
+              Technology (B.Tech) in Computer Science Engineering from HMR
+              Institute of Technology and Management, which is affiliated with
+              Guru Gobind Singh Indraprastha University (GGSIPU). I am learning
+              web development to build a career in this field. I have knowledge
+              of HTML, CSS, JavaScript, Git, and GitHub, and I am working on
+              projects while learning other tech stacks in parallel. I have also
+              studied data structures and algorithms (DSA) at an intermediate
+              level.
+            </p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>Frontend</span><br>HTML<br>CSS<br>JAVASCRIPT<br></li>
+                    <li><span>Version Control & Collaboration</span><br>GIT & GITHUB</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>Virtual Internship At CodSoft</span><br>01/August/2024 - 31/August/2024<br>(Here I create 3 basic project for learning using html,css,js)</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2022 - 2025</span><br>Bachelor Of Technology - Computer Science And Engineering<br>HMR Institute Of Technology And Management Delhi-110036</li>
+                    <li><span>2019 - 2022</span><br>Diploma - Mechanical Engineering<br>Guru Gobind Singh Indraprastha University Delhi-110078</li>
+                    <li><span>2018- 2019</span><br>10th Board - CBSE <br>Sarvodaya Vidyalaya K-2 Block Mangolpuri Delhi-110083</li>
+                    
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -------------projects--------- -->
+    <div id="projects">
+      <div class="container">
+        <p class="sub-browse">Browse My Project</p>
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/project-1.png" alt="Project1">
+            <div class="layer">
+              <h3>Intelli Search:Dual API Powered Search Platform</h3>
+              <p class="p-work">User can search any query here and with the help of Gemini and Youtube API user get text answer of query and YT video related to query </p>
+              <p style="color: black;">(React,JavaScript,CSS,HTML,Auth0)</p>
+              <a href="" class="btn">GITHUB</a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/project-2.png" alt="Project2">
+            <div class="layer">
+              <h3>Amazon UI Clone</h3>
+              <p class="p-work">Tried to Exact UI clone of amazon for learning</p>
+              <p style="color: black;">(CSS,HTML)</p>
+              <a href="" class="btn">GITHUB</a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/project-3.png" alt="Project3">
+            <div class="layer">
+              <h3>Intelli Search:Dual API Powered Search Platform</h3>
+              <p class="p-work">User can search any query here and with the help of Gemini and Youtube API user get text answer of query and YT video related to query </p>
+              <p style="color: black;">(React,JavaScript,CSS,HTML,Auth0)</p>
+              <a href="" class="btn">GITHUB</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------------------contact--------------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+              <h1 sub-title-about>Contact Me</h1>
+              <p><i class="fa-solid fa-paper-plane"></i>prakashrai@gmail.com<p>
+              <p><i class="fa-solid fa-phone"></i>9136259404</p>
+              <div class="social-icons">
+                <a href="https://www.linkedin.com/in/prakashrai11/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://mail.google.com/mail/"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://github.com/prakashrai-git"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/prakashrai_11/"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+              <a href="/Resume/My Resume11.pdf" target="_blank" class="btn">Download CV</a>
+
+          </div>
+          <div class="contact-right">
+            <form action="">
+              <input type="text" name="name" placeholder="Your Name" required>
+              <input type="email" name="email" placeholder="Your Email" required>
+              <textarea name="Message" id="message" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> 2025 Prakash. All rights reserved.   </p>
+      </div>
+    </div>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
